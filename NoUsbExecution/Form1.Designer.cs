@@ -89,6 +89,7 @@
             this.refreshbtn.TabIndex = 4;
             this.refreshbtn.Text = "Refresh";
             this.refreshbtn.UseVisualStyleBackColor = true;
+            this.refreshbtn.Click += new System.EventHandler(this.refreshbtn_Click);
             // 
             // closebtn
             // 
@@ -99,6 +100,7 @@
             this.closebtn.TabIndex = 5;
             this.closebtn.Text = "Close";
             this.closebtn.UseVisualStyleBackColor = true;
+            this.closebtn.Click += new System.EventHandler(this.closebtn_Click);
             // 
             // Form1
             // 

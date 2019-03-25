@@ -203,5 +203,22 @@ namespace NoUsbExecution
             readonlybtn.BackColor = Color.Gray;
             disabledbtn.BackColor = Color.Green;
         }
+
+        private void refreshbtn_Click(object sender, EventArgs e)
+        {
+            DialogResult refreshRegistry = MessageBox.Show("All changes will be deleted and registry will be default?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (refreshRegistry==DialogResult.Yes)
+            {
+                Registry.LocalMachine.DeleteSubKeyTree("SYSTEM\\CurrentControlSet\\Services\\UsbStor");
+                Registry.LocalMachine.DeleteSubKeyTree("SYSTEM\\CurrentControlSet\\Control\\StorageDevicePolicies");
+                Application.Exit();
+            }
+           
+        }
+
+        private void closebtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

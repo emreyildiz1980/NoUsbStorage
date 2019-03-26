@@ -20,8 +20,7 @@ namespace NoUsbExecution
         RegistryKey key;
         private void Form1_Load(object sender, EventArgs e)
         {
-           
-
+            this.Text = "Usb Security";
             // Looking for the "SYSTEM\\CurrentControlSet\\Control\\StorageDevicePolicies" value. If it doesn't exist, we catch the exception and try to create it.
             try
             {

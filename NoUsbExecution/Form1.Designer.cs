@@ -38,10 +38,10 @@
             // 
             // fullaccessbtn
             // 
-            this.fullaccessbtn.Location = new System.Drawing.Point(38, 65);
-            this.fullaccessbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.fullaccessbtn.Location = new System.Drawing.Point(51, 80);
+            this.fullaccessbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fullaccessbtn.Name = "fullaccessbtn";
-            this.fullaccessbtn.Size = new System.Drawing.Size(82, 41);
+            this.fullaccessbtn.Size = new System.Drawing.Size(109, 50);
             this.fullaccessbtn.TabIndex = 0;
             this.fullaccessbtn.Text = "Full Access";
             this.fullaccessbtn.UseVisualStyleBackColor = true;
@@ -49,10 +49,10 @@
             // 
             // readonlybtn
             // 
-            this.readonlybtn.Location = new System.Drawing.Point(154, 65);
-            this.readonlybtn.Margin = new System.Windows.Forms.Padding(2);
+            this.readonlybtn.Location = new System.Drawing.Point(205, 80);
+            this.readonlybtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.readonlybtn.Name = "readonlybtn";
-            this.readonlybtn.Size = new System.Drawing.Size(82, 41);
+            this.readonlybtn.Size = new System.Drawing.Size(109, 50);
             this.readonlybtn.TabIndex = 1;
             this.readonlybtn.Text = "Read Only";
             this.readonlybtn.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             // 
             // disabledbtn
             // 
-            this.disabledbtn.Location = new System.Drawing.Point(268, 65);
-            this.disabledbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.disabledbtn.Location = new System.Drawing.Point(357, 80);
+            this.disabledbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.disabledbtn.Name = "disabledbtn";
-            this.disabledbtn.Size = new System.Drawing.Size(82, 41);
+            this.disabledbtn.Size = new System.Drawing.Size(109, 50);
             this.disabledbtn.TabIndex = 2;
             this.disabledbtn.Text = "Disabled";
             this.disabledbtn.UseVisualStyleBackColor = true;
@@ -71,10 +71,10 @@
             // 
             // applybtn
             // 
-            this.applybtn.Location = new System.Drawing.Point(154, 215);
-            this.applybtn.Margin = new System.Windows.Forms.Padding(2);
+            this.applybtn.Location = new System.Drawing.Point(205, 265);
+            this.applybtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.applybtn.Name = "applybtn";
-            this.applybtn.Size = new System.Drawing.Size(62, 24);
+            this.applybtn.Size = new System.Drawing.Size(83, 30);
             this.applybtn.TabIndex = 3;
             this.applybtn.Text = "Apply";
             this.applybtn.UseVisualStyleBackColor = true;
@@ -82,10 +82,10 @@
             // 
             // refreshbtn
             // 
-            this.refreshbtn.Location = new System.Drawing.Point(234, 215);
-            this.refreshbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.refreshbtn.Location = new System.Drawing.Point(312, 265);
+            this.refreshbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.refreshbtn.Name = "refreshbtn";
-            this.refreshbtn.Size = new System.Drawing.Size(62, 24);
+            this.refreshbtn.Size = new System.Drawing.Size(83, 30);
             this.refreshbtn.TabIndex = 4;
             this.refreshbtn.Text = "Refresh";
             this.refreshbtn.UseVisualStyleBackColor = true;
@@ -93,10 +93,10 @@
             // 
             // closebtn
             // 
-            this.closebtn.Location = new System.Drawing.Point(317, 215);
-            this.closebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.closebtn.Location = new System.Drawing.Point(423, 265);
+            this.closebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.closebtn.Name = "closebtn";
-            this.closebtn.Size = new System.Drawing.Size(62, 24);
+            this.closebtn.Size = new System.Drawing.Size(83, 30);
             this.closebtn.TabIndex = 5;
             this.closebtn.Text = "Close";
             this.closebtn.UseVisualStyleBackColor = true;
@@ -104,16 +104,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 263);
+            this.ClientSize = new System.Drawing.Size(517, 324);
             this.Controls.Add(this.closebtn);
             this.Controls.Add(this.refreshbtn);
             this.Controls.Add(this.applybtn);
             this.Controls.Add(this.disabledbtn);
             this.Controls.Add(this.readonlybtn);
             this.Controls.Add(this.fullaccessbtn);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
